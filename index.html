@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Complex UI Design</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Bootstrap Header -->
+  <header class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container">
+      <a class="navbar-brand" href="#">Complex Ul</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="#">Carousel</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#section1">section1</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#section2">section2</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#section3">section3</a>
+          </li>
+        </ul>
+        <form class="form-inline">
+          <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-primary my-2 my-sm-0" type="submit">Search</button>
+        </form>
+      </div>
+    </div>
+  </header>
+
+  <!-- Bootstrap Carousel -->
+  <section id="carousel" class="mt-5">
+    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+      <ol class="carousel-indicators">
+        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+      </ol>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="https://media.istockphoto.com/id/1049265866/photo/view-from-a-cabin-of-singapore-flyer.webp?b=1&s=170667a&w=0&k=20&c=dIOIrj1w6t5kBbdT4oBaiOk_9JmHqOf72ky4EZTY_0w=" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>view-from-a-cabin-of-singapore-flyer</h5>
+            <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+            <a href="#" class="call to action">call to action</a>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="https://images.unsplash.com/photo-1550326897-59b13e651fcd?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8Y2Fyb3VzZWwlMjBpbm5lcnxlbnwwfHwwfHx8MA%3D%3D" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Second Slide Label</h5>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="https://images.unsplash.com/photo-1550787266-ae062be8a346?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8Y2Fyb3VzZWwlMjBpdGVtfGVufDB8fDB8fHww" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Third Slide Label</h5>
+            <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+          </div>
+        </div>
+      </div>
+      <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div>
+  </section>
+
+  <!-- Custom Flex Section -->
+  <section id="flex-section" class="mt-5">
+    <div class="container">
+      <div class="d-flex justify-content-between">
+        <div class="flex-item">
+          <img src="https://images.unsplash.com/photo-1711539924834-06816347ff2a?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwxMHx8fGVufDB8fHx8fA%3D%3D" alt="Image 4">
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+          
+        </div>
+        <div class="flex-item">
+          <img src="https://images.unsplash.com/photo-1711470623168-885d5b054e57?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHx0b3BpYy1mZWVkfDE3fE04alZiTGJUUndzfHxlbnwwfHx8fHw%3D" alt="Image 5">
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+        </div>
+        <div class="flex-item">
+          <img src="https://images.unsplash.com/photo-1701035653516-022ae4a5aed3?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwyOHx8fGVufDB8fHx8fA%3D%3D" alt="Imahttps://images.unsplash.com/photo-1711382434587-75e4a14655df?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHx0b3BpYy1mZWVkfDM2fE04alZiTGJUUndzfHxlbnwwfHx8fHw%3Dge 6">
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+
+        </div>
+        </section>
+        <section id="flex-section" class="mt-5">
+          <div class="d-flex justify-content-between">
+          <div class="flex-item">
+            <img src="https://images.unsplash.com/photo-1711376330730-17fb0b237b0a?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHx0b3BpYy1mZWVkfDIwfHFQWXNEenZKT1ljfHxlbnwwfHx8fHw%3D"width=200px, height="300px" alt="image1">
+          </div>
+          <div class="flex-item">
+            <img src="https://plus.unsplash.com/premium_photo-1709311451432-47842abbf124?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwbHVzLWZlZWR8MTgyfHx8ZW58MHx8fHx8"width=200px, height="300px"justify-align=center alt="image2">
+          </div>
+          <div class="flex-item">
+            <img src="https://plus.unsplash.com/premium_photo-1703701579680-3b4c2761aa47?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwbHVzLWZlZWR8MjU2fHx8ZW58MHx8fHx8"width=200px, height="300px" alt="image3">
+          </div>
+        </section>
+        <section id="flex-section" class="mt-5">
+          <div class="d-flex justify-content-between">
+          <div class="flex-item">
+            <img src="https://images.unsplash.com/photo-1711359756720-e98b4fd023fe?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHx0b3BpYy1mZWVkfDQyfE04alZiTGJUUndzfHxlbnwwfHx8fHw%3D"width=200px, height=300px" alt="image4">
+          </div>
+           <div class="flex-item">
+            <img src="https://images.unsplash.com/photo-1711490553928-d4dea553ba79?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHx0b3BpYy1mZWVkfDE2fE04alZiTGJUUndzfHxlbnwwfHx8fHw%3D"width=200px, height="300px" alt="image5">
+          </div>
+          <div class="flex-item">
+            <img src="https://images.unsplash.com/photo-1711304548487-4950020f4d62?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHx0b3BpYy1mZWVkfDM4fE04alZiTGJUUndzfHxlbnwwfHx8fHw%3D" width=200px, height=300px alt="image6">
+          </div>
+          </section>
+          <section id="flex-section" class="mt-5">
+            <div class="d-flex justify-content-between">
+          <div class="flex-item">
+            <img src="https://images.unsplash.com/photo-1711143578612-38bbff2be563?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHx0b3BpYy1mZWVkfDM5fE04alZiTGJUUndzfHxlbnwwfHx8fHw%3D"width=200px, height=300px alt="image7">
+          </div>
+          <div class="flex-item">
+            <img src="https://images.unsplash.com/photo-1711059224102-50a02d6817e0?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHx0b3BpYy1mZWVkfDUwfE04alZiTGJUUndzfHxlbnwwfHx8fHw%3D" width=200px, height=300px alt="image8">
+          </div>
+        
+          <div class="flex-item">
+            <img src="https://images.unsplash.com/photo-1711094320972-2cf61c579550?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHx0b3BpYy1mZWVkfDQ4fE04alZiTGJUUndzfHxlbnwwfHx8fHw%3D" width=200px, height=300px alt="Image9">
+          </div>
+        </div>
+        </section>
+        <section id="blog-card" class="mt-5">
+        <div class="blog-card">
+          <div class="blog-image">
+            <img src="https://images.unsplash.com/photo-1711117479774-5102ba0eee19?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"width=100px,hight=50px, justify-align="right" alt="Blog Image">
+          </div>
+          <div class="blog-content">
+            <h2>Blog-card</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum ac turpis nec nisl aliquet dignissim.</p>
+            <a href="#" class="call to action">call to action</a>
+          </div>
+        </div>
+        <div class="blog-card">
+          <div class="blog-image">
+            <img src="https://images.unsplash.com/photo-1711699487054-aca10a6b85ad?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHw0OHx8fGVufDB8fHx8fA%3D%3D"width=100px,hight=50px, justify-align="right" alt="Blog Image">
+          </div>
+          <div class="blog-content">
+            <h2>Blog card</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum ac turpis nec nisl aliquet dignissim.</p>
+            <a href="#" class="call to action">call to action</a>
+          </div>
+          <div class="blog-card">
+            <div class="blog-image">
+              <img src="https://images.unsplash.com/photo-1711499936918-f89154f501af?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwxMTF8fHxlbnwwfHx8fHw%3D"width=100px,hight=50px, justify-align="right" alt="Blog Image">
+            </div>
+            <div class="blog-content">
+              <h2>Blog-Card</h2>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum ac turpis nec nisl aliquet dignissim.</p>
+              <a href="#" class="call to action">call to action</a>
+            </div>
+            </section>
+            <section id="Footer" class="mt-5">
+            <footer class="footer">
+              <div class="container">
+                <div class="row">
+                  <div class="footer-col"></div>
+                  <h4>Useful Link</h4>
+                  <ul>
+                    <li><a href="#">Link1</a></li>
+                    <li><a href="#">Link2</a></li>
+                    <li><a href="#">Link3</a></li>
+                  </ul>
+                </div>
+                <div class="footer-col">
+                <div class="row">
+                
+                  <h4>More Links</h4>
+                  <ul>
+                    <li><a href="#">Link4</a></li>
+                    <li><a href="#">Link5</a></li>
+                    <li><a href="#">Link6</a></li>
+                  </ul>
+                </div>
+                <div class="footer-col">
+                  <div class="row">
+                  <h4>Contact Us</h4>
+                  <ul>
+                    <li><a href="#">Email:rajputvaishnavi@2003</a></li>
+                    <li><a href="#">Phone:9511220911</a></li>
+                  </ul>
+                </div>
+                <div class="footer-col">
+                <a href="#" class="Back to TOP">Back to Top</a>
+                </div>
+              </div>
+            </div>
+          </footer>
+          
+          </body>
+          </html>
+        
+      

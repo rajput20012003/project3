@@ -1,0 +1,156 @@
+/* styles.css */
+
+/* Custom Flex Section */
+#flex-section {
+  background-color: #f8f9fa;
+  padding: 50px 0;
+}
+
+.flex-item {
+  flex: 0 0 30%; /* Flex item should take 30% of the container width */
+  text-align: center;
+  margin: 0 10px;
+}
+
+.flex-item img {
+  width: 100%; /* Make the images responsive */
+  ges border-radius: 10px; /* Rounded corners for ima*/
+}
+
+/* Bootstrap Carousel */
+.carousel-caption {
+  background: rgba(0,0,0,0.5); /* Semi-transparent background for captions */
+  border-radius: 10px; /* Rounded corners for captions */
+}
+
+/* Bootstrap Cards */
+.card {
+  margin-bottom: 30px;
+  border-radius: 10px; /* Rounded corners for cards */
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Slight drop shadow effect */
+}
+
+.card img {
+  border-radius: 10px 10px 0 0; /* Rounded corners for card images (top only) */
+}
+
+.card-title {
+  font-size: 1.25rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.card-text {
+  margin-bottom: 15px;
+}
+
+.card-btn {
+  transition: all 0.3s ease; /* Smooth transition for button */
+}
+
+.card-btn:hover {
+  transform: translateY(-5px); /* Move button up on hover */
+}
+
+/* Bootstrap Footer */
+footer {
+  background-color: #343a40;
+  color: #fff;
+  padding: 20px 0;
+  text-align: center;
+}
+
+.back-to-top {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 1000;
+  display: none;
+  font-size: 24px;
+  background-color: #007bff;
+  color: #fff;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 50px;
+  cursor: pointer;
+}
+
+.photo-gallery img {
+  width: 300px;
+  height: 200;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+}
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.blog-card {
+  max-width: 300px;
+  margin: 20px auto;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  justify-align: right;
+}
+
+.blog-image img {
+  width: 300px;
+  height: 200;
+  display: block;
+}
+
+.blog-content {
+  padding: 20px;
+  background-color: #fff;
+}
+
+.blog-content h2 {
+  font-size: 24px;
+  color: #333;
+  margin-top: 0;
+}
+
+.blog-content p {
+  color: #666;
+}
+
+.call to action{
+  display: inline-block;
+  background-color: #333;
+  color: #fff;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+  margin-top: 10px;
+}
+
+.read-more:hover {
+  background-color: #555;
+}
+{
+  margin: 0;
+  Padding: 0;
+  box-sizing: border box;
+}
+.row{
+  display: flex;
+  flex-wrap:
+   flex-wrap
+}
+.footer{
+  background-color: black;
+  padding: 70px;
+  
+}
+
+
+
+
+
+
